@@ -6,6 +6,9 @@ const texto = document.getElementById("paragrafo");
 console.log(texto);
 console.log(texto.innerText);
 
+const titulo2 = document.getElementsByTagName("h2");
+console.log(titulo2.innerText);
+
 // getElementsByClassName() -> Vai pegar pela class e retornar um HTMLCollection
 
 const itens = document.getElementsByClassName("lista");
